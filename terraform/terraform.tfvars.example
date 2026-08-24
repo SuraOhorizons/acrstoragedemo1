@@ -1,0 +1,9 @@
+# Copiar este archivo a terraform.tfvars y ajustar según el ambiente.
+
+environment = "dev"
+location    = "eastus2"
+
+tags = {
+  project = "acrstoragedemo1"
+  owner   = "group:default/platform-engineering"
+}

@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "acrstoragedemo1"
+  description: "acrstoragedemo1"
+  annotations:
+    github.com/project-slug: SuraOhorizons/acrstoragedemo1
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - terraform
+    - infrastructure
+    - azure
+    - acr
+    - storage
+    - h1-foundation
+spec:
+  type: resource
+  lifecycle: dev
+  owner: group:default/platform-engineering
+  system: system:default/h1-foundation
